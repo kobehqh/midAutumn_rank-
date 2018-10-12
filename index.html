@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>标题</title>
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- 公用css -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/weui/1.1.0/style/weui.min.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/jquery-weui/1.0.0-rc.0/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="../../assets/css/reset.css"/>
+    <link rel="stylesheet/less" href="css/style.less"/>
+    <!-- 公用js -->
+    <script src="../../assets/js/responsive.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-weui/1.0.1/js/jquery-weui.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="index-container">
+    <p class="index-time">活动时间：2017年10月1日-10月8日</p>
+    <div class="index-bowl">
+        <img class="bowl-item1" src="img/index-bowl1.png" alt="">
+        <div class="index" style="display: none">
+            <img src="img/bowl.png">
+            <div class="bowl">
+                <div class="trans trans1">
+                    <div id="1" class="dice active2">
+                        <div class="side front">
+                            <span class="pip"></span>
+                        </div>
+                        <div class="side front inner"></div>
+                        <div class="side top">
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                        </div>
+                        <div class="side top inner"></div>
+                        <div class="side right">
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side right inner"></div>
+                        <div class="side left">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side left inner"></div>
+                        <div class="side bottom">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side bottom inner"></div>
+                        <div class="side back">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side back inner"></div>
+                        <div class="side cover x"></div>
+                        <div class="side cover y"></div>
+                        <div class="side cover z"></div>
+                    </div>
+                </div>
+                <div class="trans trans2">
+                    <div id="2" class="dice active3">
+                        <div class="side front">
+                            <span class="pip"></span>
+                        </div>
+                        <div class="side front inner"></div>
+                        <div class="side top">
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                        </div>
+                        <div class="side top inner"></div>
+                        <div class="side right">
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side right inner"></div>
+                        <div class="side left">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side left inner"></div>
+                        <div class="side bottom">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side bottom inner"></div>
+                        <div class="side back">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side back inner"></div>
+                        <div class="side cover x"></div>
+                        <div class="side cover y"></div>
+                        <div class="side cover z"></div>
+                    </div>
+                </div>
+                <div class="trans trans1">
+                    <div id="3" class="dice active1">
+                        <div class="side front">
+                            <span class="pip"></span>
+                        </div>
+                        <div class="side front inner"></div>
+                        <div class="side top">
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                        </div>
+                        <div class="side top inner"></div>
+                        <div class="side right">
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side right inner"></div>
+                        <div class="side left">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side left inner"></div>
+                        <div class="side bottom">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side bottom inner"></div>
+                        <div class="side back">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side back inner"></div>
+                        <div class="side cover x"></div>
+                        <div class="side cover y"></div>
+                        <div class="side cover z"></div>
+                    </div>
+                </div>
+
+                <div class="trans trans2">
+                    <div id="4" class="dice active6">
+                        <div class="side front">
+                            <span class="pip"></span>
+                        </div>
+                        <div class="side front inner"></div>
+                        <div class="side top">
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                        </div>
+                        <div class="side top inner"></div>
+                        <div class="side right">
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side right inner"></div>
+                        <div class="side left">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side left inner"></div>
+                        <div class="side bottom">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side bottom inner"></div>
+                        <div class="side back">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side back inner"></div>
+                        <div class="side cover x"></div>
+                        <div class="side cover y"></div>
+                        <div class="side cover z"></div>
+                    </div>
+                </div>
+                <div class="trans trans1">
+                    <div id="5" class="dice active4">
+                        <div class="side front">
+                            <span class="pip"></span>
+                        </div>
+                        <div class="side front inner"></div>
+                        <div class="side top">
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                        </div>
+                        <div class="side top inner"></div>
+                        <div class="side right">
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side right inner"></div>
+                        <div class="side left">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side left inner"></div>
+                        <div class="side bottom">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side bottom inner"></div>
+                        <div class="side back">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side back inner"></div>
+                        <div class="side cover x"></div>
+                        <div class="side cover y"></div>
+                        <div class="side cover z"></div>
+                    </div>
+                </div>
+                <div class="trans trans2">
+                    <div id="6" class="dice active5">
+                        <div class="side front">
+                            <span class="pip"></span>
+                        </div>
+                        <div class="side front inner"></div>
+                        <div class="side top">
+                            <span class="pip"></span>
+                            <span class="pip"></span>
+                        </div>
+                        <div class="side top inner"></div>
+                        <div class="side right">
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side right inner"></div>
+                        <div class="side left">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side left inner"></div>
+                        <div class="side bottom">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side bottom inner"></div>
+                        <div class="side back">
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                            <div class="column">
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                                <span class="pip"></span>
+                            </div>
+                        </div>
+                        <div class="side back inner"></div>
+                        <div class="side cover x"></div>
+                        <div class="side cover y"></div>
+                        <div class="side cover z"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="index-btn">
+        <a class="start">开始博饼</a>
+        <div class="btn-items">
+            <a href="">[博饼规则]</a>
+            <a href="">[我的奖品]</a>
+            <a href="">[积分排行榜]</a>
+        </div>
+    </div>
+</div>
+<audio id="myaudio" src="music/roll_dice.mp3" controls="controls" hidden="true">
+</audio>
+</body>
+<script src="http://cdn.bootcss.com/jquery-weui/1.0.0-rc.0/js/jquery-weui.min.js"></script>
+<script>
+    $(function () {
+        $("body").height($(window).height());
+        $(".start").on("click", function () {
+            $(".bowl-item1").hide();
+            $(".index").show();
+            $(".trans").addClass("active");
+            var myAuto = document.getElementById('myaudio');
+            myAuto.play();
+            //调接口
+            $(".trans").removeClass("active");
+            myAuto.pause();
+        });
+    })
+</script>
+</html>

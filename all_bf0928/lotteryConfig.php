@@ -1,0 +1,35 @@
+<?php
+return array(
+    "zycjh"=>array(
+        "name"=>"状元插金花",
+        "point"=>70
+    ),
+    "zy"=>array(
+        "name"=>"状元",
+        "point"=>60
+    ),
+    "dt"=>array(
+        "name"=>"对堂",
+        "point"=>50
+    ),
+    "sh"=>array(
+        "name"=>"三红",
+        "point"=>40
+),
+    "sj"=>array(
+        "name"=>"四进",
+        "point"=>30
+    ),
+    "ej"=>array(
+        "name"=>"二举",
+        "point"=>20
+    ),
+    "yx"=>array(
+        "name"=>"一秀",
+        "point"=>10
+    ),
+    "mz"=>array(
+        "name"=>"没中",
+        "point"=>0
+    ),
+);

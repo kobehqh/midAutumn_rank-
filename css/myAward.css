@@ -1,0 +1,90 @@
+body{
+    background-color: #f1e3da;
+    background-image: url("../img/bkd2.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+header p{
+    text-align: center;
+    padding-top: 11.5rem;
+    color: #716669;
+}
+.container{
+    height: 26rem;
+    width: 90%;
+    margin: 1.6rem auto 0;
+    background-image: url(../img/red-packet.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container>img{
+    width: 20%;
+    position:absolute ;
+    left: 0rem;
+    top: 16.5rem;
+}
+.logo{
+    height: 5rem;
+    padding-top: 5rem;
+}
+.logo img{
+    display: block;
+    margin: 0.1rem auto 0 ;
+    width: 20%;
+}
+.container p:nth-child(3),.container p:nth-child(4),.container p:nth-child(5),.container p:nth-child(6){
+    text-align: center;
+}
+.container p:nth-child(3){
+    color: #716669;
+    font-size: 110%;
+    padding-top: 0.3rem;
+}
+.container p:nth-child(4){
+    padding-top:2rem ;
+}
+.container p:nth-child(4),.container p:nth-child(5){
+    color: #d23c4f;
+    font-size: 120%;
+}
+.container p:nth-child(6){
+    color: #716669;
+    font-size: 80%;
+    padding-top: 4rem;
+}
+.container p:nth-child(6) span{
+    color: #d23c4f;
+}
+
+.rankBottom{
+    height: 8%;
+    /* background-color: white; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rankBottom input{
+    font-size: 1rem;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: 0;
+    color: red;
+    background-color: #f5cdb4;
+}
+
+footer span{
+    display: block;
+    background-color: #f3ceb4;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 10px;
+    margin: 0 auto 0.5rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.3rem;
+}
+footer a{
+    color:#d23c4f;
+}

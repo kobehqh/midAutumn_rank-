@@ -1,0 +1,143 @@
+.main{
+    background-color: #F0E3DA;
+    background-image: url("../img/bkd.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.moon,.wan,.action,.bottom{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.moon{
+    top: 3rem;
+    width: 17rem;
+    height: 17rem;
+    background-image: url("../img/moon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.moon img {
+    margin-top: 3rem;
+    margin-left: -0.8rem;
+    width: 18rem;
+    height: 9rem;
+}
+.moon p{
+    margin-top: 0.2rem;
+    font-size: 0.9rem;
+    color: #908C89;
+}
+.wan{
+    top: 6rem;
+    width: 19rem;
+    height: 8rem;
+}
+.wan img{
+    width: 100%;
+}
+.action{
+    top:11rem;
+}
+.action input{
+    background-color: #BE1A3F;
+    color: white;
+    font-size: 2.2rem;
+    width: 15rem;
+    height: 4rem;
+    border: 0;
+    border-radius: 15px;
+}
+.action p{
+    color: #7C6F66;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+}
+.bottom{
+    top: 12.2rem;
+}
+.bottom span{
+    font-size: 1.1rem;
+    color: #46678A;
+}
+.pop-alert{
+    background: url("../img/result.png")no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 22rem;
+    height: 20rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+.pop{
+    display: none;
+}
+.p1,.p2{
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    color: #E32A32;
+}
+.p1{
+    margin-top: 6rem;
+}
+.p34{
+    font-size: 0.9rem;
+    color: #9B9798;
+}
+.p2 text{
+    color: #E9BC38;
+}
+.act{
+    margin-top: 1rem;
+}
+.pop input{
+    width:7rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+#toRank{
+    border: 0.5px solid #E9BC38;
+    background-color: white;
+    color: #DE4F55;
+}
+#again{
+    background-color: #DE4F55;
+    color: white;
+    border: 0;
+}
+.close{
+    display: block;
+    margin: 3rem auto 0;
+    text-align: center;
+}
+
+@media only screen and (min-width: 400px) {
+    html {
+        font-size: 1rem !important
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    html {
+        font-size: 1rem !important
+    }
+    .wan{
+        top:5rem;
+    }
+    .moon{
+        width: 16rem;
+        height: 16rem;
+    }
+    .moon img{
+        margin-left: -1.3rem;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    html {
+        font-size: 1rem !important;
+    }
+}
